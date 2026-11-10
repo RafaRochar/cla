@@ -32,7 +32,7 @@ const PRODUCTS = [
     categoryLabel: "Mel & Própolis",
     icon: "icon-honey",
     catClass: "cat-mel",
-    image: "images/propolis-silvestre.jpeg",
+    image: "images/propolis50.jpeg",
     name: "Extrato de Própolis Silvestre 50%",
     size: "30ml",
     price: 65,
@@ -81,6 +81,7 @@ const PRODUCTS = [
     icon: "icon-bottle",
     catClass: "cat-cuidados",
     name: "Repelente Natural",
+    image: "images/repelente.jpeg",
     size: "",
     price: 25,
     desc: "Elaborado com citronela, cravo e óleo de algodão, ingredientes de origem vegetal tradicionalmente utilizados para ajudar a afastar insetos. Aplicar sobre a pele, evitando olhos, boca e mucosas. Reaplicar conforme a necessidade.",
@@ -182,12 +183,12 @@ const PRODUCTS = [
     desc: "Erva tradicionalmente utilizada nos cuidados naturais da família, valorizada na medicina popular como auxiliar em processos inflamatórios e infecciosos.",
   },
   {
-    id: "tintura-marcela-campo",
+    id: "tintura-macela-campo",
     category: "tinturas",
     categoryLabel: "Tinturas & Ervas",
     icon: "icon-herb",
     catClass: "cat-tinturas",
-    name: "Tintura de Marcela-do-Campo",
+    name: "Tintura de Macela-do-Campo",
     size: "30ml",
     price: 35,
     desc: "Conhecida por suas propriedades calmantes e relaxantes, auxilia em momentos de agitação, ansiedade e dificuldade para dormir. Também utilizada como auxiliar da digestão.",
@@ -203,6 +204,20 @@ const PRODUCTS = [
     price: 35,
     desc: "Reconhecida por seus compostos aromáticos, especialmente o terpinen-4-ol, associado à atividade antimicrobiana. Uso externo para cuidados da pele. Atenção: não deve ser ingerida.",
   },
+
+  {
+    id: "oleo-balsamo",
+    category: "cuidados",
+    categoryLabel: "Cuidados",
+    icon: "icon-herb",
+    catClass: "cat-cuidados",
+    image: "images/oleo-balsamo.jpeg",
+    name: "Óleo Bálsamo dos sonhos",
+    size: "30ml",
+    price: 55,
+    desc: "Preparação artesanal à base de óleos e ervas naturais, elaborada para proporcionar momentos de relaxamento, acolhimento e cuidado corporal. Ideal para massagens suaves e rituais de autocuidado, trazendo conforto e bem-estar ao corpo."
+  },
+
   {
     id: "canastrinha-multiuso",
     category: "artesanato",
@@ -215,4 +230,5 @@ const PRODUCTS = [
     price: null,
     desc: "Produzida com madeira reciclada e reaproveitada, transformando materiais em peças únicas, cheias de história, beleza e propósito. Ideal para guardar lembranças, presentes especiais, ervas medicinais, joias e pequenos artesanatos. Peça exclusiva, nenhuma igual à outra.",
   },
+  
 ];
